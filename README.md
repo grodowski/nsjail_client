@@ -1,9 +1,10 @@
-Stacksync fullstack challenge:
+Stacksync fullstack challenge
 
-1. make a node configurable with a python script
-2. request the POST /evaluate and get the result
-3. deploy to clour run, configure CORS
-4. figure a way connect the ReactFlow nodes together
+1. ✅ make a node configurable with a python script
+2. ✅ request the POST /evaluate and get the result
+3. ❌ figure out a way to connect the ReactFlow nodes together and pass results
+4. ❌ deploy to gcr, configure CORS headers
+5. ❌ better display of errors and output
 
 ![Local Image](./screenshot.png)
 ~
