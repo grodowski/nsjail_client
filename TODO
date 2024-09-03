@@ -1,6 +1,20 @@
-notes
+Notes
 
+build steps
+```
 docker build -t stacksyncclient .
-
 docker run -p 8080:8080 stacksyncclient
+```
 
+```
+# push the client image
+docker tag stacksyncclient:latest europe-west1-docker.pkg.dev/stacksync-jg/stacksyncjailclient/stacksyncjailclient:latest
+docker push europe-west1-docker.pkg.dev/stacksync-jg/stacksyncjailclient/stacksyncjailclient:latest
+
+# push the server image
+docker tag stacksyncjail:latest europe-west1-docker.pkg.dev/stacksync-jg/stacksyncjail/stacksyncjail:latest
+docker push europe-west1-docker.pkg.dev/stacksync-jg/stacksyncjail/stacksyncjail:latest
+```
+
+deploy cloud run services
+TODO: use cli
