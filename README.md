@@ -1,4 +1,13 @@
-![](https://github.com/xyflow/web/blob/main/assets/codesandbox-header-ts.png?raw=true)
+Stacksync fullstack challenge:
+
+1. make a node configurable with a python script
+2. request the POST /evaluate and get the result
+3. deploy to clour run, configure CORS
+4. figure a way connect the ReactFlow nodes together
+
+![Local Image](./screenshot.png)
+~
+---
 
 # React Flow starter (Vite + TS)
 

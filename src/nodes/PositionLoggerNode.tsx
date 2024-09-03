@@ -56,7 +56,7 @@ export function PositionLoggerNode({
           value={script || ''}
           onChange={(e) => setScript(e.target.value)}
           rows={5}
-          cols={30}
+          cols={15}
         />
       </div>
 
